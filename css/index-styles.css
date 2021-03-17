@@ -1,3 +1,49 @@
 @charset "UTF-8";
 /* CSS Document */
 
+* { margin: 0; padding: 0;}
+
+/* standard fonts */
+h1{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+}
+h4{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+}
+p{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+}
+
+
+/* segmantic elements */
+header{
+	background-color: aquamarine;
+	text-align: center;
+	padding: 10px;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+footer{
+	background-color:aquamarine;
+	position: fixed;
+	text-align: center;
+	padding: 10px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+
+/* div class elements */
+.container{
+	background-color: cadetblue;
+	padding: 10px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 100%;
+	text-align: center;
+}
